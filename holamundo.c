@@ -1,5 +1,6 @@
 # include "./includes/miinclude.h"
 int main(){
-printf("Hola mundo\n");
-return 0;
+  char c[100]="Hola mundo";
+  printf("%s\n",strcat(c,",soy i72aragj"));
+  return 0;
 }
